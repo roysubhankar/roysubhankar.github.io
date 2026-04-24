@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" id="toTopBtn">
+  ↑ Top
+</button>
+
+<script>
+  function copyEmail(event) {
+    event.preventDefault();
+    const email = "subhankar.roy@unibg.it";
+
+    navigator.clipboard.writeText(email).then(() => {
+      alert("Email (subhankar.roy@unibg.it) copied to clipboard!");
+    });
+  }
+</script>
+
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="team.html">Team</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="main">
+
+    <h1>Contact & Opportunities</h1>
+
+    <p class="contact-simple">
+  📩 <a href="#" onclick="copyEmail(event)">Contact email (click to copy email)</a>
+    </p>
+
+    <p class="intro">
+      I welcome inquiries from <strong>motivated students</strong> and <strong>researchers</strong> from academia and industry interested in research and collaboration.
+      Please read the guidelines below before reaching out to ensure a good fit.
+    </p>
+
+    <!-- ===== Internal Students ===== -->
+    <h2>UniBG Bsc & Msc Students</h2>
+
+    <p>
+      If you are a Bsc or Msc student currently enrolled at UniBG interested in a thesis under my supervision,
+      you are welcome to contact me provided that you:
+      <ul>
+        <li>Have attended or currently attending one of my courses (i.e., "<strong>Introduction to Machine Learning</strong>" or "<strong>Deep Learning</strong>"), or any course related to <strong>Artificial Intelligence</strong> in general</li>
+        <li>Have a satisfactory background in any of these programming languages: Python, C, C++, MATLAB, Java</li>
+      </ul>
+    </p>
+
+    <strong>In your email, please include:</strong> a short description of why you are interested and preferred thesis topics (if any)
+
+    <!-- ===== External Students ===== -->
+    <h2>External Students (Bsc / Msc / PhD)</h2>
+
+    <p>
+      I am open to <strong>collaborations</strong>, <strong>joint research projects</strong>, and <strong>thesis co-supervision</strong> requests from external students enrolled at any degree awarding higher education institution.
+      You should have:
+    </p>
+
+    <ul>
+      <li>A solid background in machine learning and/or deep learning</li>
+      <li>Good programming skills in Python</li>
+    </ul>
+
+    <p><strong>When reaching out, please include:</strong></p>
+    <ul>
+      <li>Your CV</li>
+      <li>Your transcript of records from previous/current level of study (if available) </li>
+      <li>A summary of your previous research or projects (with links if available)</li>
+      <li>A brief explanation of how your interests align with my research</li>
+    </ul>
+
+    <!-- ===== PhD Students ===== -->
+    <h2>Prospective PhD Students</h2>
+
+    <p>
+      Prospective PhD students are welcome to contact me to express interest in working with me.
+      A strong background in machine learning/deep learning and programming is expected. Prior publication experience is considered a plus.
+    </p>
+
+    <p><strong>When reaching out, please include:</strong></p>
+    <ul>
+      <li>Your CV</li>
+      <li>Your Msc transcript (unofficial is fine) </li>
+      <li>A summary of your previous research or projects (with links if available)</li>
+      <li>A brief explanation of how your interests align with my research</li>
+    </ul>
+
+    <p>
+      For formal application procedures and timelines, refer to UniBG's relevant webpages:
+      <ul>
+        <li>
+            General information: <a href="https://www.unibg.it/ricerca/fare-ricerca/dottorati-ricerca" target="_blank">PhD Programs (🇬🇧)</a> | <a href="https://www.unibg.it/ricerca/fare-ricerca/dottorati-ricerca" target="_blank">Dottorati di ricerca (🇮🇹)</a>
+        </li>
+        <li>PhD degree in <a href="https://phd-ai4sf.unibg.it/" target="_blank"><strong>Artificial Intelligence for Sustainable Futures</strong></a></li>
+        <li>PhD degree in <a href="https://phd-tim.unibg.it/en" target="_blank"><strong>Technology, Innovation and Management</strong></a></li>
+      </ul>
+    </p>
+
+    <!-- ===== Industry ===== -->
+    <h2>External Organizations & Industry Collaboration</h2>
+
+    <p>
+      I welcome inquiries from <strong>higher education institutions</strong>, <strong>research institutions</strong>, <strong>companies</strong>, and <strong> SMEs</strong> interested in collaborative research,
+      joint projects, grant proposals, or proof-of-concept development in areas related to my work.
+    </p>
+
+    <p>
+      Potential collaboration topics include (but are not limited to) <strong>generative modelling</strong>, <strong>multimodal learning</strong>, and
+      <strong>trustworthy AI</strong>. Please see my publications for concrete topics.
+    </p>
+
+    <p>
+      If you are interested in working together, please reach out with: 
+      <ul>
+        <li>
+            A brief description of your organization
+        </li>
+        <li>The problem or use case you have in mind, and the scope of the proposed collaboration</li>
+      </ul>
+    </p>
+
+
+    <!-- ===== Notes ===== -->
+    <h2>Important Notes</h2>
+
+    <ul>
+      <li>I am currently unable to offer paid internships.</li>
+      <li>Any funded positions or opportunities will be advertised on this webpage.</li>
+      <li>I may not be able to respond to inquiries that do not match the above criteria.</li>
+    </ul>
+
+    <!-- ===== Closing ===== -->
+    <p class="closing">
+      I look forward to hearing from students, researchers, and organizations whose interests align closely with my research.
+    </p>
+
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Subhankar Roy</p>
+</footer>
+
+</body>
+</html>

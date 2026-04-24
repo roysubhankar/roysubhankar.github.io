@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subhankar Roy (UniBG) - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+  function copyEmail(event) {
+    event.preventDefault();
+    const email = "subhankar.roy@unibg.it";
+
+    navigator.clipboard.writeText(email).then(() => {
+      alert("Email (subhankar.roy@unibg.it) copied to clipboard!");
+    });
+  }
+</script>
+
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="team.html">Team</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="sidebar">
+    <img src="profile.jpeg" alt="Profile photo">
+    <h1>Subhankar Roy</h1>
+    <p>Assistant Professor</p>
+    <p>Lab for Artificial Visual Intelligence</p>
+    <p><strong>Office: </strong>Viale Marconi, 5, Dalmine, BG, Italy</p>
+    <!--<p><a href="https://scholar.google.com/citations?user=YfzgrDYAAAAJ&hl=en" target="_blank">Google Scholar</a></p>-->
+    <div class="icons">
+            <!-- Personal Website -->
+            <a href="https://unibg.unifind.cineca.it/resource/person/187587?language=en_US" target="_blank" title="University page">🌐</a>
+
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=YfzgrDYAAAAJ&hl=enn" target="_blank" title="Google Scholar">🎓</a>
+            
+            <!-- Twitter -->
+            <a href="https://x.com/sroy907" target="_blank" title="Twitter/X">𝕏</a>
+
+            <!-- Linkedin -->
+            <a href="https://it.linkedin.com/in/subhankar-roy-26455720" target="_blank" title="LinkedIn">[in]</a>
+
+            <!-- email -->
+            <a href="#" onclick="copyEmail(event)" title="Copy email">📩</a>
+
+        </div>
+  </div>
+
+  <div class="main">
+    <section>
+      <h2>Bio</h2>
+      <p>I am a Tenure-track Assistant Professor (equivalent to RTT in Italy) at <a href="https://www.unibg.it/" target="_blank">University of Bergamo, Italy</a>, 
+        in the Department of Management, Information and Production Engineering 
+        (<a href="https://digip.unibg.it/it" target="_blank">DIGIP</a>), 
+        where I also lead the <b>Lab for Artificial Visual Intelligence</b> (<b>LAVI</b>). My research lies at the intersection of <b>machine learning</b>, <b>computer vision</b>, 
+        and <b>natural language processing</b>. My main research focus is improving the <b>trustworthiness</b> of deep learning models, with a particular emphasis on <b>vision-language generative models</b> for <strong>computer vision</strong> problems, under the broader vision of the Lab for Artificial Visual Intelligence.
+
+
+        <br><br>
+        Previously, I was a Lecturer at the University of Aberdeen, UK, and held postdoctoral research positions at Telecom Paris, France and the University of Trento, Italy.
+
+        <br><br>
+        I received my Ph.D. in Information and Communication Technology from University of Trento, Italy in 2022, where I was supervised by Prof. <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en" target="_blank">Elisa Ricci</a> and Prof. <a href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en" target="_blank">Nicu Sebe</a>. Before that
+        I received a Masters in Telecommunication Engineering from University of Trento, Italy in 2018 and a Bachelor in Electrical Engineering from West Bengal University of Technology, India in 2013.
+
+        <br><br>
+        🤝 <b>Opportunities for Students</b>: I am always looking for motivated students for research projects and collaborations. Please see the contact page before sending an email 📩
+
+       </p>
+
+      <h2>Research Interests</h2>
+      <p>Robustness, Continual learning, Multimodal learning, Open-world recognition, Federated learning, Uncertainty quantification, Generative modelling</p>
+
+      <h2>News</h2>
+      <ul>
+        <li><b>[Mar, 2026]</b> Our paper "<i>Predict-then-Diffuse: Adaptive Response Length for Compute-Budgeted Inference in Diffusion LLMs</i>" accepted at <b>IJCNN</b> 2026!</li>
+        <li><b>[Mar, 2026]</b> I will be serving as an Area Chair of <b>BMVC</b> 2026.</li>
+        <li><b>[Feb, 2026]</b> Our paper "<i>Organizing Unstructured Image Collections using Natural Language</i>" accepted at <b>CVPR Findings</b> 2026!</li>
+        <li><b>[Jan, 2026]</b> Our paper "<i>Ensembling Pruned Attention Heads For Uncertainty-Aware Efficient Transformers</i>" accepted at <b>ICLR</b> 2026!</li>
+        <li><b>[Dec, 2025]</b> I will be serving as an Area Chair of <b>ECCV</b> 2026.</li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Subhankar Roy</p>
+</footer>
+
+</body>
+</html>

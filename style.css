@@ -382,3 +382,15 @@ h2 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.last-updated {
+  font-size: 0.85rem;
+  color: #666;
+}

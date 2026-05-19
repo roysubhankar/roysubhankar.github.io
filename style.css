@@ -394,3 +394,41 @@ h2 {
   font-size: 0.85rem;
   color: #666;
 }
+
+
+/* Open-position banner (index) */
+.open-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  margin: 12px 0 18px;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(90deg, #ff8a00 0%, #e52e71 100%);
+  box-shadow: 0 8px 24px rgba(229,46,113,0.18);
+  font-weight: 600;
+}
+.open-banner-left {
+  font-size: 0.98rem;
+}
+.open-banner-btn {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.14);
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+}
+.open-banner-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.22);
+}
+
+@media (max-width: 720px) {
+  .open-banner { flex-direction: column; align-items: flex-start; }
+  .open-banner-btn { align-self: stretch; text-align: center; margin-top: 8px; }
+}

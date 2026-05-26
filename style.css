@@ -432,3 +432,7 @@ h2 {
   .open-banner { flex-direction: column; align-items: flex-start; }
   .open-banner-btn { align-self: stretch; text-align: center; margin-top: 8px; }
 }
+
+.card-spacer {
+    height: 24px;
+}
